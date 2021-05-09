@@ -7,11 +7,11 @@
 Se ha creado la peetición solicitada en la url /api/v1/deliveries/filter.
 
 Los parametros son:
-    - "dateFrom": ISODate, por ejemplo: "2020-01-01T01:01:00.000Z"
-    - "dateTo": ISODate, por ejemplo: "2020-01-01T01:01:00.000Z"
-    - "weight": Numero, por ejemplo: "90000"
-    - limit: (opcional) Numero, por ejemplo "10"
-    - page: (opcional) Numero, por ejemplo "1"
+- "dateFrom": ISODate, por ejemplo: "2020-01-01T01:01:00.000Z"
+- "dateTo": ISODate, por ejemplo: "2020-01-01T01:01:00.000Z"
+- "weight": Numero, por ejemplo: "90000"
+- "limit": (opcional) Numero, por ejemplo "10"
+- "page": (opcional) Numero, por ejemplo "1"
 
 #### Introducción
 
