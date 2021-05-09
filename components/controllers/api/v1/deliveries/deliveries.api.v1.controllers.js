@@ -24,11 +24,15 @@ router.route('/')
     (req, res, next) => handler(validator, req, res, next, validations['mainPost']),
     (req, res, next) => responses(deliveriesCommonServices.create, req, res, next))
 
+router.route('/filter/')
+  .get(
+    (req, res, next) => handler(getValidator, req, res, next, validations['filter']),
+    (req, res, next) => responses(deliveriesCommonServices.filter, req, res, next))
+
 router.route('/:id')
   .get(
     (req, res, next) => handler(getValidator, req, res, next, validations['getOne']),
     (req, res, next) => responses(deliveriesCommonServices.findOne, req, res, next))
-
 
 // export
 module.exports = router
